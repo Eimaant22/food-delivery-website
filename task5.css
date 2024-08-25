@@ -1,0 +1,93 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/407/1022/desktop-wallpaper-website-backgrounds-login-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#app {
+    width: 878px;
+    padding: 60px;
+    background: #cdbdbd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-right: 93px;
+}
+
+.screen {
+    display: none;
+    border: 2px solid black;
+    margin: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.screen.active {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background: #30012c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 22%;
+    padding: 12px;
+    margin: 19px 7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button:hover {
+    filter: brightness(0.8);
+}
+
+.hidden {
+    display: none;
+}
+
+#dish-list {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    color: black;
+}
+
+.rmv {
+    float: right;
+    margin-top: 2px;
+    margin-right: 0px;
+    width: 68px;
+    color: #fbfbfb;
+    border-radius: 10px;
+    background-color: rgb(158, 143, 45);
+}
